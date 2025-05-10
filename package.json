@@ -1,0 +1,20 @@
+{
+	"name": "vibe-condom",
+	"version": "1.0.0",
+	"description": "Cursor IDE Config Generator",
+	"keywords": [
+		"cursor",
+		"config",
+		"generator"
+	],
+	"homepage": "https://github.com/christophe77/vibe-condom#readme",
+	"bugs": {
+		"url": "https://github.com/christophe77/vibe-condom/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/christophe77/vibe-condom.git"
+	},
+	"license": "ISC",
+	"author": "christophe bellec"
+}
