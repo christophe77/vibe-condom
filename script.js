@@ -60,19 +60,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const config = generateConfig(selectedTech);
         displayConfig(config);
         modal.style.display = 'flex';
-        document.body.style.overflow = 'hidden';
+        document.body.classList.add('modal-open');
     });
 
     // Close modal when clicking close button or outside modal
     closeBtn.addEventListener('click', () => {
         modal.style.display = 'none';
-        document.body.style.overflow = 'auto';
+        document.body.classList.remove('modal-open');
     });
 
     window.addEventListener('click', (e) => {
         if (e.target === modal) {
             modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
+            document.body.classList.remove('modal-open');
         }
     });
 
